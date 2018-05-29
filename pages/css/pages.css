@@ -2,6 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
+    font-size: 12pt;
     font-synthesis: none;
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
@@ -18,7 +19,115 @@ img {
 
 /* Voeg jouw css hieraan toe */
 div {
-    display: inline-block;
     float: left;
-    margin: 3em;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+body{
+    background-color: rgb(247, 247, 247)
+}
+
+.masterdiv{
+    width: auto;
+    height: auto;
+    background-color:  rgb(225, 226, 221);
+    padding: 1em;
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    /**border-width: 2px;
+    border-color: black;
+    border-style: solid;**/
+    padding: 1em;
+}
+
+.menu a{
+    margin-right: 10px;
+}
+
+.square{
+    width: 5em;
+    height: 5em;
+    margin: 50px;
+}
+
+p{
+    display: inline-block;
+    
+}
+
+#paars{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: #8F64D8;
+}
+
+#geel{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: #FBF791;
+}
+
+#wit{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+
+#zwart{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    text-decoration-color: white;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    padding: 0em;
+    padding-left: 5px;
+}
+
+#Cooper #cooperFont{
+    font-family: "Cooper-Black";
+    font-size: 70pt;
+}
+
+#opensansExtra #titelsFont{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 50pt;
+}
+
+#opensansCondensedBold #tussenTitelsFont{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35pt;
+}
+
+#opensansLight #formsFont{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 35pt;
+}
+
+#opensansCursiveLine #linksFont{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 25pt;
+    color: #8F64D8;
+    text-decoration-line: underline;
+
+}
+
+#opensansRegular #regularFont{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25pt;
 }
