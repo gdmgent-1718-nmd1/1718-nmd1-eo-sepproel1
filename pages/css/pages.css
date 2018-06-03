@@ -35,17 +35,48 @@ body{
     padding: 1em;
 }
 
-.menu {
-    width: auto;
-    height: auto;
-    /**border-width: 2px;
-    border-color: black;
-    border-style: solid;**/
-    padding: 1em;
+.dropBtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.menu a{
-    margin-right: 10px;
+.dropBtn:hover, .dropBtn:focus {
+    background-color: #2980B9;
+}
+
+.menu {
+    position: fixed;
+    top: 10px;
+    right: 70px;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a :hover{
+    background-color: rgb(133, 133, 133);
+}
+
+.show {
+    display:block;
 }
 
 .square{

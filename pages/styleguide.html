@@ -12,10 +12,13 @@
 <body>
     <h1>Digital Styleguide</h1>
     <div class="menu">
-        <a href="#kleur">Kleurpallet</a>
-        <a href="#typo">Typografie</a>
-        <a href="#UI">UI-elementen</a>
-        <a href="#content">Plaatsing van de content</a>
+        <button onclick="dropdown()" class="dropBtn">Menu</button>
+        <div id="myDropdown" class="dropdownContent">
+            <a href="#kleur">Kleurpallet</a>
+            <a href="#typo">Typografie</a>
+            <a href="#UI">UI-elementen</a>
+            <a href="#content">Plaatsing van de content</a>
+        </div>  
     </div>
     <div class="masterdiv">
         <div id="kleur">
@@ -37,12 +40,6 @@
         </div>
         <div id="typo">
             <h2>Typografie</h2>
-            <div class="menu">
-                <a href="#kleur">Kleurpallet</a>
-                <a href="#typo">Typografie</a>
-                <a href="#UI">UI-elementen</a>
-                <a href="#content">Plaatsing van de content</a>
-            </div>
             <div class="box" id="Cooper">
                 <h3>Logo</h3>
                 <p id="cooperFont">Lorem ipsum, dolor sit amet</p>
@@ -78,12 +75,6 @@
         </div>
         <div id="UI">
             <h2>UI-elementen</h2>
-            <div class="menu">
-                <a href="#kleur">Kleurpallet</a>
-                <a href="#typo">Typografie</a>
-                <a href="#UI">UI-elementen</a>
-                <a href="#content">Plaatsing van de content</a>
-            </div>
             <div class="box" id="header">
                 <h2>Header</h2>
                 <img src="./images/ui-elements/header.png" alt="Header">
@@ -120,19 +111,14 @@
         </div>
         <div id="content">
             <h2>Plaatsing van de content in de pagina</h2>
-            <div class="menu">
-                <a href="#kleur">Kleurpallet</a>
-                <a href="#typo">Typografie</a>
-                <a href="#UI">UI-elementen</a>
-                <a href="#content">Plaatsing van de content</a>
-            </div>
             <div class="box" id="screenshots">
                 <img src="./images/ui-elements/homepage.png" alt="homepage"><br>
-                <p>Dit is een screenshot van de home page. Elke pagina is ongeveer hetzelfde van marges en padding. Er is altijd een witruimte van 80px tussen alle elementen. De tekst heeft een interlinie van 47pt, met de gemiddelde fontgrootte 25pt. De marges links en rechts zijn 138px.</p>
+                <p>Dit is een screenshot van de home page. Elke pagina is ongeveer hetzelfde van marges en padding. Er is altijd een witruimte van 80px tussen alle elementen. De tekst heeft een interlinie van 47pt, met de gemiddelde fontgrootte 25pt. De marges links en rechts zijn 84px.</p>
                 <img src="./images/ui-elements/tickets.png" alt="tickets">
                 <p>Dit is een screenshot van de ticket bestel pagina. Hierop staan meer verschillende elementen van de UI. Bij de form is de regelafstand 94pt. De invulvelden staan evenwijdig met de labels. De pagina is opgedeeld in 2, met een marge van 10px in het midden.</p>
             </div>
         </div>
     </div>
+    <script src="dropdown.js"></script>
 </body>
 </html>
